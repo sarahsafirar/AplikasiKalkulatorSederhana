@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+    
+    <TextView
+        android:id="@+id/namaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/masukkan_dua_angka"
+        android:textAllCaps="true"
+        android:textSize="18sp"/>
+    
+    <EditText
+        android:id="@+id/angka1EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukkan angka pertama"
+        android:inputType="number"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/angka2EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/masukkan_angka_kedua"
+        android:inputType="number"
+        android:textSize="14sp"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/tambah"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tambah"
+            android:textSize="18sp"
+            android:onClick="tambah"/>
+
+        <Button
+            android:id="@+id/minus"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/minus"
+            android:textSize="18sp"
+            android:onClick="minus"/>
+
+        <Button
+            android:id="@+id/kali"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/kali"
+            android:textSize="18sp"
+            android:onClick="kali"/>
+
+        <Button
+            android:id="@+id/bagi"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/bagi"
+            android:textSize="18sp"
+            android:onClick="bagi"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bersihkan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bersihkan"
+        android:textSize="18sp"
+        android:onClick="bersihkan"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hasil"
+        android:textSize="18sp" />
+    
+    <TextView
+        android:id="@+id/hasilTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hasilTextView"
+        android:textAllCaps="true"
+        android:textSize="18sp"/>
+
+
+</LinearLayout>

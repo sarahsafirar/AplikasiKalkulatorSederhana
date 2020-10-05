@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Aplikasi Kalulator Sederhana</string>
+    <string name="masukkan_dua_angka">Masukkan dua angka!</string>
+    <string name="bagi">/</string>
+    <string name="kali">*</string>
+    <string name="minus">-</string>
+    <string name="tambah">+</string>
+    <string name="masukkan_angka_kedua">masukkan angka kedua</string>
+    <string name="bersihkan">Bersihkan</string>
+    <string name="hasil">Hasil</string>
+    <string name="hasilTextView">0</string>
+</resources>
